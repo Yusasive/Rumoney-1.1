@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import Rectangle from "../assets/images/HeroImage.png";
 
 const Hero = () => (
@@ -16,7 +15,7 @@ const Hero = () => (
         <div class="flex mt-8">
           <a
             href="/courses"
-            class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-md mr-4 hover:bg-rumoney30">
+            class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-sm sm:text-md mr-4 hover:bg-rumoney30">
             Start Learning 
           </a>
           <a

@@ -13,7 +13,7 @@ const Footer = () => {
             Africa's Foremost Digital Marketing Learning Community & IT Talent Recruitment Platform
         </p>
 		</div>
-		<div className="grid grid-cols-2 gap-x-3 gap-y-8 lg:w-3/5 sm:grid-cols-4">
+		<div className="grid grid-cols gap-x-3 gap-y-8 lg:w-3/5 sm:grid-cols-4">
 			<div className="space-y-3">
 		
 				<ul className="space-y-1">

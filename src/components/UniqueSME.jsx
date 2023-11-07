@@ -16,7 +16,7 @@ const UniqueSME = () => {
         </div>
         <div className="text-left p-6 mt-2 sm:w-2/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <h1 className="text-black60 text-3xl font-semibold">
-            Why We're Unique <br /> To Students
+            Why We're Unique <br /> To SMEs
           </h1>
           <div className="flex flex-col justify-center py-2 lg:flex-row lg:justify-between">
             <div className="text-black60">

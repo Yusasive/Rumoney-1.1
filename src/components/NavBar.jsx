@@ -8,7 +8,7 @@ const NavBar = () => {
         {name:"Hire Talents",link:"/hire-talents"},
         {name:"Courses",link:"/Courses"},
         {name:"About Us",link:"/About"},
-        {name:"Blog",link:"/Blog"},
+        {name:"Blog",link:"https://blog.rumoney.digital"},
       ];
       let [open, setOpen] =useState(false);
 
@@ -17,7 +17,7 @@ const NavBar = () => {
            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
             {/* logo section */}
             <div className=' text-2xl cursor-pointer flex items-center gap-1'>
-                <span><img src={logo} alt="Rumoney" /></span>
+                <a href="/"><span><img src={logo} alt="Rumoney" /></span></a>
             </div>
             {/* Menu icon */}
             <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>

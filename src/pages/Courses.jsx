@@ -1,5 +1,6 @@
 import React from 'react';
 import CourseHero from '../components/CourseHero';
+import LiveSession from '../components/LiveSession';
 
 const Courses = () => {
   return (
@@ -13,6 +14,8 @@ const Courses = () => {
         </div>
       </section>
       <CourseHero />
+      <LiveSession />
+      <LiveSession />
     </div>
   )
 }

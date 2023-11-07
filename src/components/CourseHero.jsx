@@ -4,7 +4,7 @@ import CourseImage from "../assets/images/CoursesImage.png";
 const CourseHero = () => {
   return (
     <div>
-      <div className="container flex flex-col justify-center p-2 mt-24 mb-2 sm:py-2 lg:py-6 lg:flex-row lg:justify-between">
+      <div className="container flex flex-col justify-center p-2 mt-10 mb-2 sm:py-2 lg:py-6 lg:flex-row lg:justify-between">
         <div className="flex items-center justify-center ml-4 p-6 mt-10 lg:mr-4 lg:mt-6 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <img
             src={CourseImage}
@@ -25,7 +25,7 @@ const CourseHero = () => {
             earn even while you are still a student for{" "}
             <span className="text-rumoney40 text-xl">FREE</span>
           </p>
-          <div class="flex mt-8">
+          <div class="flex mt-4">
             <a
               href="/cohort"
               class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-md mr-4 hover:bg-rumoney30">
