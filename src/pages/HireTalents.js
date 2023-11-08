@@ -1,11 +1,11 @@
 import React from "react";
-import Hire from "../components/Hire";
-import Certified from "../components/Certified";
-import Brand from "../components/Brand";
-import Testimonial from "../components/Testimonial";
-import LiveSession from "../components/LiveSession";
-import Newsletter from "../components/NewsLetter";
-import Unique from "../components/Unique";
+import Hire from "../component/Hire";
+import Certified from "../component/Certified";
+import Brand from "../component/Brand";
+import Testimonial from "../component/Testimonial";
+import LiveSession from "../component/LiveSession";
+import Newsletter from "../component/NewsLetter";
+import Unique from "../component/Unique";
 
 const HireTalents = () => {
   return (

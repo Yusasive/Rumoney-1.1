@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const World = () => {
+const Brand = () => {
   return (
     <div className="py-8 bg-rumoney10 px-4 mx-auto  lg:py-16 lg:px-6">
       <p class="mb-6 text-lg font-medium text-black60 lg:text-xl sm:px-16 xl:px-48 ">
-        Become A World Class Digital Marketer.
+        Build A World class Brand
       </p>
-      <a
-        href="/cohorts"
+      <Link
+        to="/hire-talents"
         class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-rumoney60 rounded-lg hover:bg-rumoney30 focus:ring-4">
-        Join Our New Cohort
+        Hire Talents Now
         <svg
           class="w-3.5 h-3.5 ml-2"
           aria-hidden="true"
@@ -24,9 +25,9 @@ const World = () => {
             d="M1 5h12m0 0L9 1m4 4L9 9"
           />
         </svg>
-      </a>
+      </Link>
     </div>
   );
 };
 
-export default World;
+export default Brand;

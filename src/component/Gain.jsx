@@ -2,6 +2,7 @@ import React from "react";
 import Learn from "../assets/icons/Learn.png";
 import Experience from "../assets/icons/Experience.png";
 import Earn from "../assets/icons/earn.png";
+import { Link } from "react-router-dom";
 
 const Gain = () => {
   return (
@@ -18,11 +19,11 @@ const Gain = () => {
             skills for FREE
           </p>
           <div class="flex mt-2">
-            <a
-              href="/courses"
+            <Link
+              to="/courses"
               class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-md mr-4 hover:bg-rumoney30">
               Start Learning Now
-            </a>
+            </Link>
           </div>
         </div>
         <div className="text-left p-6 mt-2 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">

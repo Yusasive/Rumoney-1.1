@@ -1,19 +1,19 @@
 import React from "react";
-import CommunityImage from "../assets/images/community.png";
+import Communities from "../assets/images/community.png";
 
 const Community = () => {
   return (
     <div>
       <section className="bg-center bg-no-repeat mt-24 bg-about-banner bg-blend-multiply">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-4 lg:py-20">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none BG text-white md:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-4xl mt-10 font-extrabold tracking-tight leading-none BG text-white md:text-5xl lg:text-6xl">
             Community
           </h1>
         </div>
       </section>
 
-      <div className="container flex flex-col justify-center p-2 mt-24 mb-2 sm:py-2 lg:py-6 lg:flex-row lg:justify-between">
-        <div className="flex flex-col items-start w-1/2 justify-center p-6 mt-10 lg:mr-4 lg:mt-6">
+      <div className="container flex flex-col justify-center p-2 sm:mt-24 mb-2 sm:py-2 lg:py-6 lg:flex-row lg:justify-between">
+        <div className="flex flex-col items-start sm:w-1/2 justify-center p-6 sm:mt-10 lg:mr-4 lg:mt-6">
           <h1 className=" text-3xl text-left text-black60 mt-6 font-semibold sm:text-4xl">
             Join Our Student
             <br /> Community
@@ -24,16 +24,16 @@ const Community = () => {
             and opportunities.
           </p>
           <img
-            src={CommunityImage}
-            alt="Community Image"
+            src={Communities}
+            alt="Community"
             className="object-contain object-left-bottom h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
             placeholder="blur"
             loading="lazy"
           />
         </div>
 
-        <div className="flex flex-col w-1/2 justify-center p-4 text-left  sm:ml-2 lg:ml-16 rounded-sm lg:max-w-2xl xl:max-w-2xl lg:text-left">
-          <form class="mt-6 w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl lg:max-w-xl shadow-rumoney30/50">
+        <div className="flex flex-col sm:w-1/2 justify-center p-4 text-left  sm:ml-2 lg:ml-16 rounded-sm lg:max-w-2xl xl:max-w-2xl lg:text-left">
+          <form class="mt-6 w-full px-8 py-4 sm:py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl lg:max-w-xl shadow-rumoney30/50">
             <div class="flex-1">
               <label class="block mb-2 text-sm text-black60">First Name</label>
               <input

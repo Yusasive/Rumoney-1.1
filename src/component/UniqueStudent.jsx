@@ -1,5 +1,6 @@
 import React from "react";
 import Prosperity from "../assets/images/Prosperity.png";
+import { Link } from "react-router-dom";
 
 const UniqueStudent = () => {
   return (
@@ -37,11 +38,11 @@ const UniqueStudent = () => {
             </div>
           </div>
           <div class="flex mt-2">
-            <a
-              href="/courses"
+            <Link
+              to="/courses"
               class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-md mr-4 hover:bg-rumoney30">
               Start Learning
-            </a>
+            </Link>
           </div>
         </div>
 

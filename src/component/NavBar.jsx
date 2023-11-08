@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import logo from "../assets/icons/logo.svg";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     let Links =[
         {name:"Students",link:"/"},
         {name:"Hire Talents",link:"/hire-talents"},
-        {name:"Courses",link:"/Courses"},
-        {name:"About Us",link:"/About"},
+        {name:"Courses",link:"/courses"},
+        {name:"About Us",link:"/about"},
         {name:"Blog",link:"https://blog.rumoney.digital"},
       ];
       let [open, setOpen] =useState(false);
@@ -17,7 +18,7 @@ const NavBar = () => {
            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
             {/* logo section */}
             <div className=' text-2xl cursor-pointer flex items-center gap-1'>
-                <a href="/"><span><img src={logo} alt="Rumoney" /></span></a>
+                <Link to="/"><span><img src={logo} alt="Rumoney" /></span></Link>
             </div>
             {/* Menu icon */}
             <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
@@ -30,7 +31,7 @@ const NavBar = () => {
                 {
                     Links.map((link) => (
                     <li className='md:ml-8 md:my-0 my-7 font-semibold'>
-                        <a href={link.link} className='text-gray-800 hover:text-rumoney50 duration-500'>{link.name}</a>
+                        <Link to={link.link} className='text-gray-800 hover:text-rumoney50 duration-500'>{link.name}</Link>
                     </li>))
                 }
                

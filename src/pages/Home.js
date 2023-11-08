@@ -1,11 +1,11 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Certified from "../components/Certified";
-import NewsLetter from "../components/NewsLetter";
-import World from "../components/World";
-import CarouselItem from "../components/CarouselItem";
-import LiveSession from "../components/LiveSession";
-import Gain from "../components/Gain";
+import Hero from "../component/Hero";
+import Certified from "../component/Certified";
+import NewsLetter from "../component/NewsLetter";
+import World from "../component/World";
+import CarouselItem from "../component/CarouselItem";
+import LiveSession from "../component/LiveSession";
+import Gain from "../component/Gain";
 
 const Home = () => {
   return (

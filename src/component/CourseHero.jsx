@@ -1,5 +1,6 @@
 import React from "react";
-import CourseImage from "../assets/images/CoursesImage.png";
+import Courses from "../assets/images/CoursesImage.png";
+import { Link } from "react-router-dom";
 
 const CourseHero = () => {
   return (
@@ -7,8 +8,8 @@ const CourseHero = () => {
       <div className="container flex flex-col justify-center p-2 mt-10 mb-2 sm:py-2 lg:py-6 lg:flex-row lg:justify-between">
         <div className="flex items-center justify-center ml-4 p-6 mt-10 lg:mr-4 lg:mt-6 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <img
-            src={CourseImage}
-            alt="Image Course"
+            src={Courses}
+            alt="Course"
             className="object-contain object-left-bottom h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
             placeholder="blur"
             loading="lazy"
@@ -26,11 +27,11 @@ const CourseHero = () => {
             <span className="text-rumoney40 text-xl">FREE</span>
           </p>
           <div class="flex mt-4">
-            <a
-              href="/cohort"
+            <Link
+              to="/cohort"
               class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-md mr-4 hover:bg-rumoney30">
               Join the Next Cohort
-            </a>
+            </Link>
           </div>
         </div>
       </div>

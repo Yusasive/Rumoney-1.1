@@ -10,14 +10,14 @@ const LiveSession = () => {
           src="https://www.youtube.com/embed/ydOmxCmdJmw"
           frameborder="0"
           allow="autoplay; picture-in-picture"
-          allowfullscreen></iframe>
+          allowfullscreen title="Youtube"></iframe>
       </div>
       <div className="ml-10 sm:m-10 w-1/2 aspect-square">
         <iframe
           src="https://www.youtube.com/embed/xS68diftULI"
           frameborder="0"
           allow="autoplay; picture-in-picture"
-          allowfullscreen></iframe>
+          allowfullscreen title="Youtube"></iframe>
       </div>
       </div>
     </div>

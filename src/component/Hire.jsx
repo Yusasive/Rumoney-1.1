@@ -1,5 +1,6 @@
 import React from 'react';
 import Hand from '../assets/images/Hand.png';
+import { Link } from "react-router-dom";
 
 const Hire = () => {
   return (
@@ -14,16 +15,16 @@ const Hire = () => {
           access global opportunities.
         </p>
         <div class="flex mt-8">
-          <a
-            href="/courses"
+          <Link
+            to="/courses"
             class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-sm sm:text-md mr-4 hover:bg-rumoney30">
             Start Learning 
-          </a>
-          <a
-            href="/hire-marketers"
+          </Link>
+          <Link
+            to="/hire-marketers"
             class="uppercase py-2 px-4 text-bold rounded-md bg-transparent border-2 border-rumoney60 text-rumoney dark:text-rumoney60 hover:bg-rumoney50 hover:text-white text-md">
             Hire Marketers
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex items-center justify-center p-6 mt-10 lg:mr-4 lg:mt-6 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">

@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from '../assets/images/logo.svg';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="px-8 divide-y text-lg dark:bg-rumoney110 dark:text-white">
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:ml-12 lg:w-2/5">
-			<a rel="noopener noreferrer" href="/" className="flex justify-center space-x-3 lg:justify-start">
+			<Link rel="noopener noreferrer" to="/" className="flex justify-center space-x-3 lg:justify-start">
 				<span className="self-center"><img src={logo} alt="" /></span>
-			</a>
+			</Link>
             <p className=" mb-2 text-white text-left font-normal ">
             Africa's Foremost Digital Marketing Learning Community & IT Talent Recruitment Platform
         </p>
@@ -18,16 +19,16 @@ const Footer = () => {
 		
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="/">Students</a>
+						<Link rel="noopener noreferrer" to="/">Students</Link>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="hire-talents">Hire Talents</a>
+						<Link rel="noopener noreferrer" to="hire-talents">Hire Talents</Link>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="/courses">Courses</a>
+						<Link rel="noopener noreferrer" to="/courses">Courses</Link>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="/community">Community</a>
+						<Link rel="noopener noreferrer" to="/community">Community</Link>
 					</li>
                     <li>
 						<a rel="noopener noreferrer" href="/blog">Blog</a>
@@ -38,26 +39,26 @@ const Footer = () => {
 
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="/login">Login</a>
+						<Link rel="noopener noreferrer" to="/">Login</Link>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="/sign-up">Sign Up</a>
+						<Link rel="noopener noreferrer" to="/">Sign Up</Link>
 					</li>
                     <li>
-						<a rel="noopener noreferrer" href="/about">About Us</a>
+						<Link rel="noopener noreferrer" to="/about">About Us</Link>
 					</li>
                     <li>
-						<a rel="noopener noreferrer" href="/contact">Contact Us</a>
+						<Link rel="noopener noreferrer" to="/contact">Contact Us</Link>
 					</li>
 				</ul>
 			</div>
 			<div className="space-y-3">
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="/privacy">Privacy</a>
+						<Link rel="noopener noreferrer" to="/">Privacy</Link>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="terms-&-conditions">Terms & Conditions</a>
+						<Link rel="noopener noreferrer" to="/">Terms & Conditions</Link>
 					</li>
 	
 				</ul>

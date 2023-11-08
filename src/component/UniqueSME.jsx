@@ -1,5 +1,6 @@
 import React from "react";
 import Omale from "../assets/images/omale.png";
+import { Link } from "react-router-dom";
 
 const UniqueSME = () => {
   return (
@@ -43,11 +44,11 @@ const UniqueSME = () => {
               </p>
 
               <div class="flex mt-2">
-                <a
-                  href="/hire-marketer"
+                <Link
+                  to="/hire-marketer"
                   class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-md mr-4 hover:bg-rumoney30">
                   Hire a Marketer
-                </a>
+                </Link>
               </div>
             </div>
           </div>
