@@ -27,7 +27,7 @@ const Unique = () => {
           </div>
         </div>
         <div className="text-left p-6 mt-2 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-          <img src={Learn} alt="Learn" />
+          <img src={Learn} alt="Learn" loading="lazy" />
           <h1 className="text-lg text-black60 sm:mt-2 font-semibold sm:text-xl">
             We make hiring Fast
           </h1>
@@ -37,7 +37,7 @@ const Unique = () => {
         </div>
         <div className="text-left justify-center px-6 mt-2 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <div>
-            <img src={Experience} alt="Experience" />
+            <img src={Experience} alt="Experience" loading="lazy" />
             <h1 className="text-lg  text-black60 sm:mt-2 font-semibold sm:text-xl">
               Proven and Vetted
             </h1>
@@ -47,7 +47,7 @@ const Unique = () => {
             </p>
           </div>
           <div>
-            <img src={Earn} alt="Earn" />
+            <img src={Earn} alt="Earn" loading="lazy" />
             <h1 className="text-lg text-black60 mt-2 font-semibold sm:text-xl">
             Just the right pricing
             </h1>

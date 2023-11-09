@@ -18,6 +18,7 @@ const HireMarketers = () => {
           allowFullScreen
           title="Embedded form"
           className="w-full h-screen"
+          loading="lazy"
         />
       </div>
     </div>

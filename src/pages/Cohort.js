@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Cohort = () => {
   return (
@@ -10,7 +10,7 @@ const Cohort = () => {
           </h1>
         </div>
       </section>
-      
+
       <div>
         <iframe
           src={`https://docs.google.com/forms/d/e/1FAIpQLSeR08Zwitk744JCncHrxhD7WkNIK7YB5zv_5J5ZgjRByq3s6w/viewform?embedded=true`}
@@ -18,10 +18,11 @@ const Cohort = () => {
           allowFullScreen
           title="Embedded form"
           className="w-full h-screen"
+          loading="lazy"
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Cohort;

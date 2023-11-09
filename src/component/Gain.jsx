@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Gain = () => {
   return (
     <div>
-     <div className="container flex flex-col justify-center bg-orange-50 sm:bg-what-image p-2 mt-2 mb-8 sm:py-2 lg:py-6  lg:flex-row lg:justify-between">
+      <div className="container flex flex-col justify-center bg-orange-50 sm:bg-what-image p-2 mt-2 mb-8 sm:py-2 lg:py-6  lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-4 text-left sm:w-1/3 sm:ml-2 lg:ml-16 rounded-sm lg:max-w-2xl xl:max-w-2xl">
           <h1 className="text-2xl text-black60 mt-2 font-semibold sm:text-4xl">
             What you stand to <br /> gain as a
@@ -27,7 +27,7 @@ const Gain = () => {
           </div>
         </div>
         <div className="text-left p-6 mt-2 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-          <img src={Learn} alt="Learn" />
+          <img src={Learn} alt="Learn" loading="lazy" />
           <h1 className="text-lg text-black60 sm:mt-2 font-semibold sm:text-xl">
             Learn from the best
           </h1>
@@ -38,7 +38,7 @@ const Gain = () => {
         </div>
         <div className="text-left justify-center px-6 mt-2 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <div>
-            <img src={Experience} alt="Experience" />
+            <img src={Experience} alt="Experience" loading="lazy" />
             <h1 className="text-lg  text-black60 sm:mt-2 font-semibold sm:text-xl">
               Real time experience
             </h1>
@@ -48,7 +48,7 @@ const Gain = () => {
             </p>
           </div>
           <div>
-            <img src={Earn} alt="Earn" />
+            <img src={Earn} alt="Earn" loading="lazy" />
             <h1 className="text-lg text-black60 mt-2 font-semibold sm:text-xl">
               Earn as you learn
             </h1>
