@@ -16,12 +16,12 @@ const Hero = () => (
         <div class="flex mt-8">
           <Link
             to="/courses"
-            class="uppercase py-2 text-bold px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-sm sm:text-md mr-4 hover:bg-rumoney30">
+            class="uppercase py-1 px-2 sm:py-2 text-bold sm:px-4 rounded-md bg-rumoney60 border-2 border-transparent text-white text-sm sm:text-md mr-4 hover:bg-rumoney30">
             Start Learning 
           </Link>
           <Link
             to="/hire-marketers"
-            class="uppercase py-2 px-4 text-bold rounded-md bg-transparent border-2 border-rumoney60 text-rumoney dark:text-rumoney60 hover:bg-rumoney50 hover:text-white text-md">
+            class="uppercase py-1 sm:py-2 px-2 sm:py-2 text-bold rounded-md bg-transparent border-2 border-rumoney60 text-rumoney dark:text-rumoney60 hover:bg-rumoney50 hover:text-white text-md">
             Hire Marketers
           </Link>
         </div>

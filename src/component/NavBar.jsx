@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className='shadow-md w-full fixed top-0 left-0'>
            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
             {/* logo section */}
-            <div className=' text-2xl cursor-pointer flex items-center gap-1'>
+            <div className=' pt--4 cursor-pointer flex items-center gap-1'>
                 <Link to="/"><span><img src={logo} alt="Rumoney" loading="lazy" /></span></Link>
             </div>
             {/* Menu icon */}

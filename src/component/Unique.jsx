@@ -31,11 +31,11 @@ const Unique = () => {
           <h1 className="text-lg text-black60 sm:mt-2 font-semibold sm:text-xl">
             We make hiring Fast
           </h1>
-          <p className="mt-1 mb-2 text-black60 text-md font-normal sm:mb-4">
+          <p className="mt-1 mb-1 text-black60 text-md font-normal sm:mb-4">
             Build your team quickly by hiring from our trained pool of talents.
           </p>
         </div>
-        <div className="text-left justify-center px-6 mt-2 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+        <div className="text-left justify-center px-6 sm:w-1/3 lg:mr-4 lg:mt-2 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
           <div>
             <img src={Experience} alt="Experience" loading="lazy" />
             <h1 className="text-lg  text-black60 sm:mt-2 font-semibold sm:text-xl">
@@ -46,7 +46,7 @@ const Unique = () => {
               experienced and qualified talents
             </p>
           </div>
-          <div>
+          <div className="mt-3 sm:mt-0">
             <img src={Earn} alt="Earn" loading="lazy" />
             <h1 className="text-lg text-black60 mt-2 font-semibold sm:text-xl">
             Just the right pricing

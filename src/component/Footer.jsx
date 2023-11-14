@@ -90,7 +90,7 @@ const Footer = () => {
             <h3 className="tracki font-medium uppercase dark:text-gray-50">
               Follow Us
             </h3>
-            <div className="flex justify-start ml-16 sm:ml-12 space-x-4">
+            <div className="flex justify-start pl-10 sm:pl-0 ml-16 sm:ml-12 space-x-4">
               <a
                 rel="noopener noreferrer"
                 target="_blank"

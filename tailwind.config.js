@@ -40,6 +40,7 @@ export default {
         'our-journey': "url('/src/assets/images/OurJourney.png')",
         
       }
+      
     },
   },
   plugins: [
